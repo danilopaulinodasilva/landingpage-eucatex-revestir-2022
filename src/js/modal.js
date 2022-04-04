@@ -1,5 +1,6 @@
 window.avise = avise;
 window.padrao = padrao;
+window.youtube = youtube;
 
 var avise = document.querySelectorAll('.btn-avise');
 
@@ -18,5 +19,16 @@ padrao.forEach(element => {
     e.preventDefault();
 
     document.getElementById('iframePadrao').src = e.target.dataset.url;
+  });
+});
+
+var youtube = document.querySelectorAll('.btn-youtube');
+
+youtube.forEach(element => {
+  element.addEventListener('click', function(e) {
+    e.stopPropagation();
+    e.preventDefault();
+
+    document.getElementById('iframeYoutube').src = e.target.href;
   });
 });

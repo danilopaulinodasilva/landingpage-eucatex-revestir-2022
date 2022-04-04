@@ -62,8 +62,6 @@ function submitFirstForm(name, email, profession, state, city) {
 
   xhr.addEventListener('readystatechange', function() {
     if (this.readyState === this.DONE) {
-      console.log(this.responseText);
-
       const dados = JSON.parse(this.responseText);
 
       if (dados.resultado == 'JA_CADASTRADO') {
