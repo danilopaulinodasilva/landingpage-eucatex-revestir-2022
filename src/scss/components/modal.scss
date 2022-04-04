@@ -1,0 +1,144 @@
+#modalPadrao {
+  margin-top: 10%;
+
+  .modal-dialog {
+    min-width: 800px !important;
+    width: 800px !important;
+  }
+
+  .modal-header {
+    border:none;
+    position: relative;
+
+    .btn-close {
+      position: absolute;
+      background-color: #ffffff;
+      background-image: none;
+      opacity: 1;
+      border-radius: 50% !important;
+      font-size: 2rem;
+      top: -30px;
+      right: -35px;
+      padding-top: 3px;
+      padding-bottom: 10px;
+
+      i {
+        color: $primary-color;
+
+      }
+
+    }
+
+  }
+
+  .modal-content {
+    background-color: #ffffff;
+    border:none;
+    border-radius: 0;
+    padding: 25px;
+
+    h1 {
+      font-size: 1.8rem;
+      color: $tertiary-color;
+      margin-bottom: 25px;
+    }
+
+  }
+
+}
+
+#modalAvise {
+
+  margin-top: 10%;
+
+  .modal-header {
+    border:none;
+    position: relative;
+
+    .btn-close {
+      position: absolute;
+      background-color: #ffffff;
+      background-image: none;
+      opacity: 1;
+      border-radius: 50% !important;
+      font-size: 2rem;
+      top: -30px;
+      right: -35px;
+      padding-top: 3px;
+      padding-bottom: 10px;
+
+      i {
+        color: $primary-color;
+
+      }
+
+    }
+
+  }
+
+  .modal-content {
+    background-color: #71B9D2;
+    border:none;
+    border-radius: 0;
+    padding: 25px;
+
+    h1 {
+      font-size: 1.8rem;
+      color: $tertiary-color;
+      margin-bottom: 25px;
+    }
+
+  }
+
+}
+
+#modalVideo {
+  border-radius: 0;
+  margin-top: 10%;
+
+  .modal-dialog {
+    min-width: 800px !important;
+    width: 800px !important;
+  }
+
+  .modal-header {
+    border: none;
+    background: none;
+    padding: 0;
+
+    .btn-close {
+      position: absolute;
+      background-color: #ffffff;
+      background-image: none;
+      opacity: 1;
+      border-radius: 50% !important;
+      font-size: 2rem;
+      top: -10px;
+      right: -10px;
+      padding-top: 3px;
+      padding-bottom: 10px;
+      z-index: 9999;
+
+      i {
+        color: $primary-color;
+
+      }
+
+    }
+
+  }
+
+  .modal-content {
+    min-width: 600px;
+    border: none;
+    border-radius: 0;
+    background: none;
+  }
+
+  .modal-body {
+    padding: 0;
+    background: none;
+
+  }
+
+}

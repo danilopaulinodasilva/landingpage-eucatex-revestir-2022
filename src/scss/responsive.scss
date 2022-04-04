@@ -1,0 +1,375 @@
+@media (max-width:800px) {
+
+  nav {
+    padding: 0 !important;
+    margin: 0 !important;
+    position: relative;
+
+    .container-fluid {
+      padding: 0;
+
+      .navbar-toggler>.close {
+        display:inline;
+        font-size: 3rem;
+        color: $tertiary-color;
+      }
+
+      .navbar-toggler.collapsed>.close, .navbar-toggler:not(.collapsed)>.navbar-toggler-icon {
+          display:none;
+      }
+
+      .navbar-toggler {
+        background-color: $primary-color;
+        position: absolute;
+        top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border: none;
+
+        button[aria-expanded="true"] > span.close {
+          display: inline;
+          color: #fff;
+          opacity: 1;
+        }
+      
+        button[aria-expanded="true"] > span.navbar-toggler-icon {
+          display: none;
+        }
+      
+        button[aria-expanded="false"] > span.close {
+          display: none;
+        }
+        
+      }
+
+      .collapsed {
+        position: relative !important;
+        top:25px;
+        left: 25px;
+        width: 60px !important;
+        height: 60px !important;
+      }
+
+      ul.navbar-nav {
+        height: 100vh;
+        justify-content: center;
+
+        li.nav-item {
+          text-align: center;
+          a.nav-link {
+            margin:25px 0;
+            font-size: 1.5rem;
+          }
+        }
+      }
+
+    }
+  }
+
+  #hero {
+    background-size: cover !important;
+
+    #chamada {
+      margin-left: 25px;
+    }
+
+    #quanto {
+      margin-left: 10px;
+
+      p {
+        font-size: 2rem;
+      }
+
+    }
+
+    #crossEucatex {
+      margin-left: 20px;
+
+      img {
+        height: 35px;
+        margin-right: 10px;
+      }
+
+      p {
+        font-size: 3rem;
+      }
+    }
+
+    #cross {
+      margin-left: 25px;
+      margin-top: 5px;
+
+      img {
+        width: 90px;
+      }
+    }
+
+    #inovacao {
+      left: 105px;
+      top: 160px;
+
+      p {
+        font-size: 2rem;
+      }
+
+    }
+
+    #latam {
+      margin-left: 90px;
+      margin-top: 135px;
+
+      p {
+        font-size: 1.5rem;
+      }
+    }
+
+  }
+
+  #loaf {
+    img {
+      width: 150px;
+    }
+  }
+
+  #planeta {
+
+    background-image: none;
+
+    .container {
+      width: 100%;
+
+      #logo {
+        display: flex;
+        justify-content: center;
+      }
+
+      #possibilidades {
+        margin-left: 25px;
+        margin-top: 50px;
+
+      }
+
+      #texto {
+        margin: 25px;
+
+        p {
+          font-size: 1.1rem;
+
+          br {
+            display: none;
+          }
+        }
+      }
+
+      #planetinha {
+        display: block;
+
+        img {
+          width: 120%;
+          transform: rotate(-30deg);
+          margin-left: -100px;
+        }
+      }
+
+      #preform {
+        margin-left: 0px;
+        margin-right: 155px;
+
+        h3 {
+          margin-top: 25px;
+          margin-right: -80px;
+          margin-left: 25px !important;
+          font-size: 2rem;
+
+          &:first-child {
+            margin-right: -100px;
+
+            i {
+              display: none;
+
+            }
+
+          }
+
+        }
+
+      }
+
+      #formulario {
+
+        margin-right: 25px;
+
+        p {
+          margin-left: 25px !important;
+          margin-top: 25px !important;
+
+        }
+
+        #cadastro, #entrar {
+          margin-left: 25px !important;
+
+        }
+
+
+      }
+
+    }
+
+  }
+
+  #palestras {
+    .container {
+      width: 100%;
+
+      h1 {
+        margin-left: 25px;
+        font-size: 2.1rem;
+        margin-right: 25px;
+      }
+
+      #palestra {
+        margin-left: 25px;
+      }
+
+      .cartao {
+        margin: 25px !important;
+
+        img {
+          height: auto !important;
+        }
+
+        .btn {
+          font-size: initial !important;
+          i {
+            margin-right: 0px;
+          }
+        }
+      }
+
+    }
+  }
+
+  #novidades {
+
+    background-position: top 550px right 0px !important;
+
+    .container {
+      width: 100%;
+
+      h1 {
+        font-size: 2.5rem;
+
+        br {
+          display: none;
+        }
+      }
+
+      p.padraoTitle {
+        margin-top: 50px;
+      }
+
+      p.mdfeucatex {
+        color: $secondary-color;
+      }
+
+      h1, p {
+        margin-left: 25px;
+      }
+
+      #tituloNovidades {
+        margin-left: 25px;
+
+      }
+
+      #coresEucafloor, #coresEucadoor, #coresMdfEucatex {
+        margin-left: -25px;
+        margin-right: -25px;
+        overflow-x: auto;
+
+        ul {
+          margin-left: 25px;
+
+          li {
+            a {
+              p {
+                margin-left: 0 !important
+              }
+            }
+          }
+        }
+      }
+
+    }
+
+  }
+
+  #catalogo {
+    padding-bottom: 250px;
+    background-position: bottom center;
+    background-image: url(../img/loaf-catalogo-mobile.png);
+
+    .container {
+      width: 100%;
+
+      h1 {
+        margin-left: 25px;
+        font-size: 2.2rem;
+
+        br {
+          display: none;
+        }
+      }
+
+      #eucatex {
+        margin-left:25px;
+        margin-bottom: 25px;
+      }
+
+      #botaoBaixarCatalogo {
+        margin-bottom: 50px;
+        margin-left: 25px;
+      }
+
+    }
+
+  }
+
+  footer {
+    .container {
+      width: 100%;
+
+      #logo {
+        img {
+        width: 200px;
+        }
+      }
+    }
+  }
+
+  #modalPadrao {
+    margin-top: 10%;
+  
+    .modal-dialog {
+      min-width: 100% !important;
+      width: 100% !important;
+    }
+
+  }
+
+  #modalVideo {
+    margin-top: 10%;
+  
+    .modal-dialog {
+      min-width: 100% !important;
+      width: 100% !important;
+    }
+
+  }
+
+}
+
+@media (min-width:1280px) {
+
+}

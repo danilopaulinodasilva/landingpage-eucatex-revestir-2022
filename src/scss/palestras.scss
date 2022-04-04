@@ -1,0 +1,82 @@
+#palestras {
+  background-color: #ffffff;
+  min-height: 100vh;
+  padding-bottom: 50px;
+
+  .palestras {
+    border: 1px solid red;
+  }
+
+  #palestra {
+    background-color: $primary-color;
+    width: 200px;
+    height: 50px;
+    margin-top: 50px;
+    position: relative;
+    padding-top: 3px;
+
+    p {
+      position: absolute;
+      font-size: 33px;
+      margin-left: -12px;
+      color: $tertiary-color;
+      font-weight: bold;
+
+    }
+
+    img {
+      width: 25px;
+      vertical-align: baseline;
+
+    }
+
+  }
+
+
+
+  .col-md-8 {
+    h1 {
+      font-size: 2rem;
+      margin-top: 30px;
+      color: $tertiary-color;
+
+    }
+
+  }
+
+  .cartao {
+    background-color: palegoldenrod;
+    padding: 20px;
+    margin: 50px 25px;
+
+    img {
+      margin-bottom: 50px;
+      height: 350px;
+
+    }
+
+
+
+    .col-md-6 {
+      display: flex;
+      justify-content: center;
+
+    }
+
+    .btn {
+      border-radius: 0;
+      color: $tertiary-color;
+      background-color: $primary-color;
+      border-color: $primary-color;
+      font-weight: 200 !important;
+
+      i {
+        margin-right: 10px;
+
+      }
+
+    }
+
+  }
+
+}

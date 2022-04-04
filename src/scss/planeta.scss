@@ -1,0 +1,111 @@
+#planeta {
+  background-color: #71B9D2;
+  background-image: url(../img/planeta.png);
+  background-position: top 25px right 100px;
+  background-repeat: no-repeat;
+  background-size: 600px;
+  min-height: 100vh;
+  padding-bottom: 50px;
+
+  #logoPlaneta {
+    margin-top: 50px;
+    width: 150px;
+  }
+
+  #possibilidades {
+    background-color: $secondary-color;
+    width: 285px;
+    height: 50px;
+    margin-top: 50px;
+    position: relative;
+    padding-top: 3px;
+
+    p {
+      position: absolute;
+      font-size: 33px;
+      margin-left: -12px;
+      color: #ffffff;
+
+    }
+
+    img {
+      width: 25px;
+      vertical-align: baseline;
+
+    }
+
+  }
+
+  #texto {
+    h1, h4, p {
+      margin-top: 30px;
+      color: $tertiary-color;
+
+    }
+
+    p {
+      font-weight: 200 !important;
+    }
+
+    h1 {
+      font-weight: bold;
+
+    }
+
+  }
+
+  #preform {
+    margin-top: 50px;
+
+    h3:first-child {
+      font-weight: bold;
+      color: $tertiary-color;
+      margin-left: 0px !important;
+
+      i {
+        color: $secondary-color;
+        margin-right: 10px;
+
+      }
+
+    }
+
+    h3 {
+      color: $tertiary-color;
+      margin-left: 35px;
+
+      strong {
+        font-weight: bold;
+
+      }
+
+    }
+
+  }
+
+  #formulario {
+    p {
+      font-size: 1.3rem;
+      color: $tertiary-color;
+      margin-left: 40px;
+      margin-top: 50px;
+      font-weight: normal !important;
+
+    }
+
+  }
+
+  #cadastro {
+    margin-left: 40px;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+
+  }
+
+  #entrar {
+    margin-left: 40px;
+
+  }
+
+}

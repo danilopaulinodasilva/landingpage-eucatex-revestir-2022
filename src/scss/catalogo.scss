@@ -1,0 +1,57 @@
+#catalogo {
+  background-color: $primary-color;
+  background-image: url('../img/loaf-catalogo.jpg');
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: 300px;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+
+  .btn {
+
+    background-color: $secondary-color;
+    border-color: $secondary-color;
+    border-radius: 0;
+    color: #ffffff;
+    margin-top: 25px;
+    font-weight: 200 !important;
+
+    i {
+      margin-right: 15px;
+
+    }
+
+  }
+
+  #eucatex {
+    background-color: $secondary-color;
+    width: 180px;
+    height: 50px;
+    margin-top: 50px;
+    position: relative;
+    padding-top: 3px;
+
+    p {
+      position: absolute;
+      font-size: 33px;
+      margin-left: -12px;
+      color: #ffffff;
+      font-weight: bold;
+
+    }
+
+    img {
+      width: 25px;
+      vertical-align: baseline;
+
+    }
+
+  }
+
+  h1 {
+    color: $tertiary-color;
+
+  }
+
+}

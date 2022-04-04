@@ -1,0 +1,98 @@
+#novidades {
+  background-color: $secondary-color;
+  background-image: url(../img/bg-novidades.jpg);
+  background-position: top 320px right 0px;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+
+  h1 {
+    margin-top: 50px;
+    color: #ffffff;
+
+  }
+
+  p {
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-weight: 200 !important;
+
+  }
+
+  #tituloNovidades {
+    background-color: #ffffff;
+    width: 220px;
+    height: 50px;
+    margin-top: 50px;
+    position: relative;
+    padding-top: 3px;
+
+    p {
+      position: absolute;
+      font-size: 33px;
+      margin-left: -12px;
+      color: $tertiary-color;
+      font-weight: bold;
+
+    }
+
+    img {
+      width: 25px;
+      vertical-align: baseline;
+
+    }
+
+  }
+
+  a {
+    text-decoration: none;
+    color: $tertiary-color !important;
+  }
+
+  p.eucadoor {
+    margin-left: 330px;
+    color: $secondary-color;
+
+  }
+
+  #coresEucadoor {
+    margin-left: 330px;
+  }
+
+  #coresEucafloor, #coresEucadoor, #coresMdfEucatex {
+    display: flex;
+    flex-direction: row;
+
+    ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+
+      li {
+        margin-right: 15px;
+        width: 150px;
+
+        .btn-padrao {
+          display: block;
+        }
+
+        p {
+          color: $tertiary-color;
+          font-size: 14px;
+          margin-top: 15px;
+          text-align: center;
+
+        }
+
+        img {
+          width: 150px;
+
+        }
+
+      }
+
+    }
+
+  }
+
+}

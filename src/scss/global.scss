@@ -1,0 +1,20 @@
+@import './components/button.scss';
+@import './components/form.scss';
+@import './components/modal.scss';
+
+html,
+body {
+  font-family: 'Gotham Pro', sans-serif;
+  overflow-x: hidden;
+  position: relative;
+
+}
+
+.container {
+  width: 1000px;
+
+}
+
+button > *, a > * {
+  pointer-events: none;
+}

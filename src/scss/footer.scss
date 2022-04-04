@@ -1,0 +1,51 @@
+footer {
+  margin-top: 50px;
+
+  h2 {
+    color: $secondary-color;
+    font-weight: bold;
+    text-align: center;
+
+  }
+
+  p {
+    color: $tertiary-color;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  #redes {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+
+    .logos {
+      width: 500px;
+      display: flex;
+      justify-content: space-around;
+
+      i {
+        font-size: 3rem;
+        color: $tertiary-color;
+
+      }
+
+    }
+
+  }
+
+  #logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+
+    img {
+      width: 300px;
+
+    }
+
+  }
+
+}
