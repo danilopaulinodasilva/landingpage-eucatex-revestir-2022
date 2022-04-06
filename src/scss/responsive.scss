@@ -134,7 +134,7 @@
   }
 
   #planeta {
-
+    padding-top: 0px;
     background-image: none;
 
     .container {
@@ -164,7 +164,7 @@
       }
 
       #planetinha {
-        display: block;
+        display: block !important;
 
         img {
           width: 120%;
@@ -231,6 +231,7 @@
 
       #palestra {
         margin-left: 25px;
+        width: 175px;
       }
 
       .cartao {
